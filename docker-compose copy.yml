@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  servidorweb:
+    image: php:7.4-apache
+    container_name: servidorweb
+    volumes:
+      - ./app:/var/www/html
+    ports:
+      - 82:80
+
+  servidorbd:
+    image: mariadb:10.7.1
+    container_name: servidordb
+    environment:
+      - MYSQL_ROOT_PASSWORD=23!idsidh2838ewu
+    volumes:
+      - ./db:/var/lib/mysql
+      - ./db_config:/etc/mysql/conf.d
+    ports:
+      - 3333:3306
+    
