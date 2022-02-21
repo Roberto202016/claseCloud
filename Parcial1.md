@@ -11,5 +11,6 @@
     1. base de datos
     2. web 1
     3. web 2
-9. Enviar ruta o enlace de repo Git al correo abolio@modelo.edu.mx con su nombre completo como título del correo.
+9. Entregar en Repositorio archivo.sql de respaldo de base de datos.
+10. Enviar ruta o enlace de repo Git al correo abolio@modelo.edu.mx con su nombre completo como título del correo.
 
