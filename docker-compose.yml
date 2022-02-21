@@ -6,7 +6,7 @@ services:
     build: .
     container_name: servidorweb
     volumes:
-      - ./app:/app
+      - ./app:/var/www/html
     ports:
       - 82:80
 
