@@ -1,6 +1,12 @@
 <html>
 
 <body>
+   <script>
+       if (window.location.protocol != "https:") {
+           window.location.protocol = "https:";
+           window.location.reload();
+        }
+    </script>
 <?php
 $enlace = mysqli_connect("host.docker.internal", "root", "23!idsidh2838ewu", "clase","3333");
 
